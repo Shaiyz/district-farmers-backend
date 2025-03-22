@@ -3,7 +3,6 @@ import cors from 'cors';
 import { json } from 'body-parser';
 import { customerRoutes } from './routes/customerRoutes.ts';
 import { userRoutes } from './routes/userRoutes.ts';
-// import { redisClient } from './redis.ts';
 import morgan from "morgan"; // Logging middleware
 import { connectDB } from './db.ts';
 import { errorHandler } from './errorMiddleware.ts';
