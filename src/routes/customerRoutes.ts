@@ -1,7 +1,7 @@
 import express from 'express';
 import { body } from 'express-validator';
-import { authMiddleware } from '../middleware/authMiddleware.ts';
-import { createCustomer, getAllCustomers, getCustomerById, syncCustomers } from '../controllers/customerController.ts';
+import { authMiddleware } from '../middleware/authMiddleware';
+import { createCustomer, getAllCustomers, getCustomerById, syncCustomers } from '../controllers/customerController';
 
 export const customerRoutes = express.Router();
 

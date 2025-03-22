@@ -6,12 +6,11 @@
     "esModuleInterop": true,
     "moduleResolution": "node",
     "skipLibCheck": true,
-    "allowImportingTsExtensions": true,
     "forceConsistentCasingInFileNames": true,
     "outDir": "dist",
     "rootDir": "./src",
     "baseUrl": "./src",
-    "noEmit": true
+    "noEmit": false
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules"]

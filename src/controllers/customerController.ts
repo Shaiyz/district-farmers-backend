@@ -1,7 +1,7 @@
 import { Request, Response } from 'express';
-import { pool } from '../db.ts';
+import { pool } from '../db';
 import axios from 'axios';
-import { config } from '../config.ts';
+import { config } from '../config';
 
 export const createCustomer = async (req: Request, res: Response) => {
     try {

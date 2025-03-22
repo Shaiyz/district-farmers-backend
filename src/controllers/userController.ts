@@ -1,5 +1,5 @@
 import { Request, Response } from 'express';
-import { pool } from '../db.ts';
+import { pool } from '../db';
 import jwt from 'jsonwebtoken';
 import bcrypt from 'bcrypt';
 import 'dotenv/config'; 
