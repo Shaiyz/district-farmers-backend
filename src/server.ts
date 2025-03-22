@@ -25,7 +25,6 @@ connectDB();
 createUserTable(); 
 createCustomerTable(); 
 
-// redisClient.connect().then(() => console.log('Redis connected'));
 const PORT = process.env.PORT || 5001
 
 app.listen(PORT, () => {
